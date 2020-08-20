@@ -1,0 +1,37 @@
+{
+  "name": "reactjs-template",
+  "version": "1.0.0",
+  "description": "React template with webpack, babel and jest test",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --port 3000 --open",
+    "test": "jest"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "JhonRomero26",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@reach/router": "^1.3.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "dart-sass": "^1.25.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "sass-loader": "^9.0.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
